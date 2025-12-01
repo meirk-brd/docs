@@ -1331,10 +1331,28 @@
               "tab": "Agent Builder",
               "pages": [
                 "langsmith/agent-builder",
-                "langsmith/agent-builder-setup",
-                "langsmith/agent-builder-tools",
-                "langsmith/agent-builder-mcp-framework",
-                "langsmith/agent-builder-slack-app"
+                {
+                  "group": "Get started",
+                  "pages": [
+                    "langsmith/agent-builder-setup",
+                    "langsmith/agent-builder-templates"
+                  ]
+                },
+                {
+                  "group": "Tools and integrations",
+                  "pages": [
+                    "langsmith/agent-builder-tools",
+                    "langsmith/agent-builder-mcp-framework",
+                    "langsmith/agent-builder-slack-app"
+                  ]
+                },
+                {
+                  "group": "Advanced",
+                  "pages": [
+                    "langsmith/agent-builder-auth-format",
+                    "langsmith/agent-builder-code"
+                  ]
+                }
               ]
             },
             {
